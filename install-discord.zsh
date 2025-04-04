@@ -6,7 +6,8 @@ FILENAME_PATTERN="discord-*.tar.gz"
 DISCORD_DIR="Discord"
 
 # Find the latest Discord tar.gz file.
-DISCORD_FILENAME=$(ls -t "$DOWNLOAD_DIR/$FILENAME_PATTERN" | head -n 1)
+DISCORD_FILENAME="$HOME/Downloads/discord-0.0.90.tar.gz"
+
 
 # Check if a file was found.
 if [ -z "$DISCORD_FILENAME" ]; then
